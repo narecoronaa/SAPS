@@ -1,0 +1,71 @@
+{
+  "Name": "Filter Wizard Design",
+  "Description": "Filter Wizard Design",
+  "Tool": "FW",
+  "Version": "1.2",
+  "Design": {
+    "visitedTabs": [
+      "filter-type",
+      "specifications",
+      "components",
+      "tolerances",
+      "next-steps"
+    ],
+    "filterType": "lowPass",
+    "specifications": {
+      "gain": 0,
+      "gainUnit": "dB",
+      "passbandAttenuation": -1,
+      "passbandFrequency": 25,
+      "stopbandAttenuation": -7,
+      "stopbandFrequency": 30,
+      "filterResponseValue": 1,
+      "filterResponseSlider": "0"
+    },
+    "components": {
+      "vsPlus": 5,
+      "vsMinus": -5,
+      "optimization": "Power",
+      "optimizationPreference": "nonSpecific",
+      "compensateForGbw": false,
+      "preferredAlgorithms": {
+        "sallenKey|lowPass": "lowpassV2"
+      },
+      "stages": [
+        {
+          "stageLetter": "A",
+          "componentSizing": 117,
+          "gain": -1,
+          "gainEnabled": false,
+          "implementation": "sallenKey",
+          "opAmps": "LT6004"
+        },
+        {
+          "stageLetter": "B",
+          "componentSizing": 116,
+          "gain": -1,
+          "gainEnabled": false,
+          "implementation": "sallenKey",
+          "opAmps": "LT6004"
+        }
+      ],
+      "recommendedAmps": [],
+      "sortOrder": [
+        0,
+        1
+      ]
+    },
+    "tolerances": {
+      "resistorTolerance": "1%",
+      "capacitorTolerance": "5%",
+      "inductorTolerance": "5%",
+      "opAmpGbwTolerance": "20%",
+      "resistorPreferredSeries": "E48",
+      "capacitorPreferredSeries": "E24",
+      "inductorPreferredSeries": "E12"
+    },
+    "nextSteps": {}
+  },
+  "CreatedDate": "2025-02-19 10:27:28 AM",
+  "UpdatedDate": "2025-02-19 10:27:28 AM"
+}

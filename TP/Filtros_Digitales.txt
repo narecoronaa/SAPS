@@ -1,0 +1,64 @@
+-----------------------------------------------------------------------------
+FILTROS IIR 
+-----------------------------------------------------------------------------
+FILTRO IIR 1: Filtrado IIR - Chebyshev
+Frecuencia de muestreo: 60.0 Hz
+Aproximación utilizada:pyfda.filter_widgets.cheby1
+Orden del filtro: 4
+Filtro Pasa-Banda
+Frecuencia de corte banda de rechazo inferior: 0.00 Hz
+Frecuencia de corte inferior banda de paso : 0.06 Hz
+Frecuencia de corte superior banda de paso : 15.00 Hz
+Frecuencia de corte banda de rechazo superior: 29.99 Hz
+
+
+FILTRO IIR 2: Filtrado IIR - Butterworth
+Frecuencia de muestreo: 60.0 Hz
+Aproximación utilizada:pyfda.filter_widgets.butter
+Orden del filtro: 4
+Filtro Pasa-Banda
+Frecuencia de corte banda de rechazo inferior: 0.00 Hz
+Frecuencia de corte inferior banda de paso : 0.06 Hz
+Frecuencia de corte superior banda de paso : 15.00 Hz
+Frecuencia de corte banda de rechazo superior: 29.99 Hz
+
+La atenuación del Filtrado IIR - Chebyshev en 0.01Hz es de -23.25dB
+La atenuación del Filtrado IIR - Chebyshev en 20Hz es de -3.10dB
+La atenuación del Filtrado IIR - Butterworth en 0.01Hz es de -17.41dB
+La atenuación del Filtrado IIR - Butterworth en 20Hz es de -1.38dB
+
+
+El algoritmo de filtrado IIR1 toma 0.000s
+El algoritmo de filtrado IIR2 toma 0.016s
+-----------------------------------------------------------------------------
+FILTROS FIR 
+-----------------------------------------------------------------------------
+FILTRO FIR 1: Filtrado FIR - Equiripple
+Frecuencia de muestreo: 60.0 Hz
+Aproximación utilizada:pyfda.filter_widgets.equiripple
+Orden del filtro: 218
+Filtro Pasa-Banda
+Frecuencia de corte banda de rechazo inferior: 0.01 Hz
+Frecuencia de corte inferior banda de paso : 1.00 Hz
+Frecuencia de corte superior banda de paso : 15.00 Hz
+Frecuencia de corte banda de rechazo superior: 16.00 Hz
+
+
+Filtro FIR 2: Filtrado FIR - Windowed
+Frecuencia de muestreo: 60.0 Hz
+Aproximación utilizada:pyfda.filter_widgets.firwin
+Orden del filtro: 150
+Filtro Pasa-Banda
+Frecuencia de corte banda de rechazo inferior: 0.01 Hz
+Frecuencia de corte inferior banda de paso : 1.00 Hz
+Frecuencia de corte superior banda de paso : 15.00 Hz
+Frecuencia de corte banda de rechazo superior: 20.00 Hz
+
+La atenuación del Filtrado FIR - Equiripple en 0.01Hz es de -41.26dB
+La atenuación del Filtrado FIR - Equiripple en 20Hz es de -48.82dB
+La atenuación del Filtrado FIR - Windowed en 0.01Hz es de -8.19dB
+La atenuación del Filtrado FIR - Windowed en 20Hz es de -66.51dB
+
+
+El algoritmo de filtrado FIR1 toma 0.016s
+El algoritmo de filtrado FIR2 toma 0.000s

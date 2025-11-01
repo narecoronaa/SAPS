@@ -1,0 +1,88 @@
+Circuit: * C:\Users\penia\OneDrive\Documentos\SAPS\2025-1C\PDyDE2\DesignFiles\SPICE Files\LTspice\ACAnalysis.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 8.81044e-007
+vernier = 0.0625
+vernier = 0.0833333
+Gmin = 7.66419e-007
+vernier = 0.111111
+vernier = 0.148148
+Gmin = 5.89403e-007
+vernier = 0.197531
+Gmin = 3.86164e-007
+vernier = 0.263374
+vernier = 0.351165
+Gmin = 1.95002e-007
+vernier = 0.46822
+vernier = 0.624294
+Gmin = 6.74482e-008
+vernier = 0.832392
+Gmin = 1.26921e-008
+vernier = 1
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 7.03135e-009
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 6.78973e-009
+vernier = 0.0208333
+Gmin = 6.47953e-009
+vernier = 0.0277778
+vernier = 0.037037
+Gmin = 5.991e-009
+vernier = 0.0493827
+vernier = 0.0658435
+Gmin = 5.28859e-009
+vernier = 0.0877914
+Gmin = 4.34915e-009
+vernier = 0.117055
+vernier = 0.156073
+Gmin = 3.13871e-009
+vernier = 0.208098
+vernier = 0.277464
+Gmin = 1.87542e-009
+vernier = 0.369952
+Gmin = 8.43514e-010
+vernier = 0.493269
+vernier = 0.657691
+Gmin = 2.28368e-010
+vernier = 0.876922
+vernier = 1
+Gmin = 3.28155e-011
+Gmin = 3.52353e-012
+Gmin = 3.78337e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Wed Feb 19 10:30:44 2025
+Total elapsed time: 0.047 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 1986
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 26
+fillins = 52
+solver = Normal
+Matrix Compiler1:     205 opcodes
+Matrix Compiler2: off  [0.2]/0.4/0.4
+
