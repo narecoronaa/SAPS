@@ -1,0 +1,155 @@
+LTspice 24.1.5 for Windows
+Circuit: D:\Facultad\5to Año\Primer Cuatrimestre\Sistemas de Adquisición y Procesamiento de Señales\Practica_Parcial_4\DesignFiles\SPICE Files\LTspice\ACAnalysis.net
+Start Time: Fri Jun 20 23:00:31 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+Gmin = 0.0123794
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 45.4575%
+Source Step = 45.4871%
+Source Step = 45.5167%
+Source Step = 45.5463%
+Source Step = 45.5759%
+Source Step = 45.6055%
+vernier = 0.00146484
+Source Step = 45.6484%
+Source Step = 45.6928%
+Source Step = 45.7372%
+Source Step = 45.7815%
+Source Step = 45.8259%
+vernier = 0.00219727
+Source Step = 45.8881%
+Source Step = 45.9547%
+Source Step = 46.0212%
+Source Step = 46.0878%
+Source Step = 46.1544%
+vernier = 0.0032959
+Source Step = 46.2443%
+Source Step = 46.3442%
+Source Step = 46.4441%
+Source Step = 46.5439%
+Source Step = 46.6438%
+vernier = 0.00494385
+Source Step = 46.7736%
+Source Step = 46.9235%
+Source Step = 47.0733%
+Source Step = 47.2231%
+Source Step = 47.3729%
+vernier = 0.00741577
+Source Step = 47.5602%
+Source Step = 47.7849%
+Source Step = 48.0096%
+Source Step = 48.2343%
+Source Step = 48.459%
+vernier = 0.0111237
+Source Step = 48.7287%
+Source Step = 49.0658%
+Source Step = 49.4029%
+Source Step = 49.74%
+Source Step = 50.077%
+vernier = 0.0166855
+Source Step = 50.4647%
+Source Step = 50.9703%
+Source Step = 51.4759%
+Source Step = 51.9815%
+Source Step = 52.4872%
+vernier = 0.0250282
+Source Step = 53.0433%
+Source Step = 53.8018%
+Source Step = 54.5602%
+Source Step = 55.3186%
+Source Step = 56.0771%
+vernier = 0.0375423
+Source Step = 56.8734%
+Source Step = 58.0111%
+Source Step = 59.1487%
+Source Step = 60.2864%
+Source Step = 61.424%
+Source Step = 62.5617%
+vernier = 0.0563135
+Source Step = 64.2681%
+Source Step = 65.9746%
+Source Step = 67.6811%
+Source Step = 69.3875%
+Source Step = 71.094%
+vernier = 0.0844703
+Source Step = 73.5684%
+Source Step = 76.1281%
+Source Step = 78.6878%
+Source Step = 81.2475%
+Source Step = 83.8072%
+vernier = 0.126705
+Source Step = 87.3908%
+Source Step = 91.2304%
+Source Step = 92.4062%
+Source Step = 92.4662%
+Source Step = 92.5262%
+Source Step = 92.5862%
+Source Step = 92.6462%
+vernier = 0.00296966
+Source Step = 92.7092%
+Source Step = 92.7992%
+Source Step = 92.8892%
+Source Step = 92.9792%
+Source Step = 93.0691%
+Source Step = 93.1591%
+vernier = 0.00445449
+Source Step = 93.2941%
+Source Step = 93.4291%
+Source Step = 93.5641%
+Source Step = 93.6991%
+Source Step = 93.8341%
+vernier = 0.00668173
+Source Step = 94.0298%
+Source Step = 94.2323%
+Source Step = 94.4347%
+Source Step = 94.6372%
+Source Step = 94.8397%
+vernier = 0.0100226
+Source Step = 95.1232%
+Source Step = 95.4269%
+Source Step = 95.7306%
+Source Step = 96.0343%
+Source Step = 96.338%
+vernier = 0.0150339
+Source Step = 96.748%
+Source Step = 97.2036%
+Source Step = 97.6592%
+Source Step = 98.1147%
+Source Step = 98.5703%
+vernier = 0.0225508
+Source Step = 99.1626%
+Source Step = 99.8459%
+Source stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.318 seconds.
+
+Files loaded:
+D:\Facultad\5to Año\Primer Cuatrimestre\Sistemas de Adquisición y Procesamiento de Señales\Practica_Parcial_4\DesignFiles\SPICE Files\LTspice\ACAnalysis.net
+C:\Users\Equipo\AppData\Local\LTspice\lib\sub\LTC.lib
+

@@ -1,0 +1,82 @@
+LTspice 24.1.5 for Windows
+Circuit: D:\Facultad\5to Año\Primer Cuatrimestre\Sistemas de Adquisición y Procesamiento de Señales\Practica_Parcial_2\DesignFiles_pasa_bajo\SPICE Files\LTspice\ACAnalysis.net
+Start Time: Sat May 31 00:42:29 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 8.81044e-07
+vernier = 0.0625
+vernier = 0.0833333
+Gmin = 7.66419e-07
+vernier = 0.111111
+vernier = 0.148148
+Gmin = 5.89403e-07
+vernier = 0.197531
+Gmin = 3.86164e-07
+vernier = 0.263374
+vernier = 0.351165
+Gmin = 1.95002e-07
+vernier = 0.46822
+vernier = 0.624294
+Gmin = 6.74482e-08
+vernier = 0.832392
+Gmin = 1.26921e-08
+vernier = 1
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 7.03135e-09
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 6.78973e-09
+vernier = 0.0208333
+Gmin = 6.47953e-09
+vernier = 0.0277778
+vernier = 0.037037
+Gmin = 5.991e-09
+vernier = 0.0493827
+vernier = 0.0658435
+Gmin = 5.28859e-09
+vernier = 0.0877914
+Gmin = 4.34915e-09
+vernier = 0.117055
+vernier = 0.156073
+Gmin = 3.13871e-09
+vernier = 0.208098
+vernier = 0.277464
+Gmin = 1.87542e-09
+vernier = 0.369952
+Gmin = 8.43514e-10
+vernier = 0.493269
+vernier = 0.657691
+Gmin = 2.28368e-10
+vernier = 0.876922
+vernier = 1
+Gmin = 3.28155e-11
+Gmin = 3.52353e-12
+Gmin = 3.78337e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.264 seconds.
+
+Files loaded:
+D:\Facultad\5to Año\Primer Cuatrimestre\Sistemas de Adquisición y Procesamiento de Señales\Practica_Parcial_2\DesignFiles_pasa_bajo\SPICE Files\LTspice\ACAnalysis.net
+C:\Users\Equipo\AppData\Local\LTspice\lib\sub\LTC5.lib
+

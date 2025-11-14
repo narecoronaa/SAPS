@@ -1,0 +1,16 @@
+1. Verdadero. 
+La implementación puede realizarse utilizando circuitos activos con Múltiple Realimentaciones (MFB) o Sallen-Key, 
+no modifica que los filtros sigan siendo Butterworth.
+
+BIEN.
+
+2. Verdadero.
+Es un circuito de segundo orden (dos capacitores) en configuración de MFB.
+Asumi que la curva verde es la con n=2, porque hay otra con n=9.
+
+NO JUSTIFICA.
+
+3. Verdadero.
+El FIR se basa en la convolución por bloques, no en ecuaciones recursivas como los IIR.
+
+BIEN.

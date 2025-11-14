@@ -1,0 +1,15 @@
+LTspice 24.1.5 for Windows
+Circuit: D:\Facultad\5to Año\Primer Cuatrimestre\Sistemas de Adquisición y Procesamiento de Señales\Practica_Parcial_3\DesignFiles\SPICE Files\LTspice\ACAnalysis.net
+Start Time: Thu Jun 19 18:20:46 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.374 seconds.
+
+Files loaded:
+D:\Facultad\5to Año\Primer Cuatrimestre\Sistemas de Adquisición y Procesamiento de Señales\Practica_Parcial_3\DesignFiles\SPICE Files\LTspice\ACAnalysis.net
+C:\Users\Equipo\AppData\Local\LTspice\lib\sub\ADA4177.lib
+

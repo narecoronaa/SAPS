@@ -1,0 +1,81 @@
+{
+  "Name": "Filter Wizard Design",
+  "Description": "Filter Wizard Design",
+  "Tool": "FW",
+  "Version": "1.2",
+  "Design": {
+    "visitedTabs": [
+      "filter-type",
+      "specifications",
+      "components",
+      "tolerances",
+      "next-steps"
+    ],
+    "filterType": "lowPass",
+    "specifications": {
+      "gain": 0,
+      "gainUnit": "dB",
+      "passbandAttenuation": -3,
+      "passbandFrequency": 2000,
+      "stopbandAttenuation": -40.5,
+      "stopbandFrequency": 4540,
+      "filterResponseValue": 0,
+      "filterResponseSlider": "48"
+    },
+    "components": {
+      "vsPlus": 12,
+      "vsMinus": -12,
+      "optimization": "RecommendedSpecificComponents",
+      "optimizationPreference": "specific",
+      "compensateForGbw": false,
+      "preferredAlgorithms": {
+        "sallenKey|lowPass": "lowpassV2"
+      },
+      "referenceVoltage": 0,
+      "stages": [
+        {
+          "stageLetter": "A",
+          "componentSizing": 140,
+          "gain": -1,
+          "gainEnabled": false,
+          "implementation": "sallenKey",
+          "opAmps": "LT1490A"
+        },
+        {
+          "stageLetter": "B",
+          "componentSizing": 104,
+          "gain": -1,
+          "gainEnabled": false,
+          "implementation": "sallenKey",
+          "opAmps": "LT1490A"
+        },
+        {
+          "stageLetter": "C",
+          "componentSizing": 100,
+          "gain": -1,
+          "gainEnabled": false,
+          "implementation": "sallenKey",
+          "opAmps": "LT1490A"
+        }
+      ],
+      "recommendedAmps": [],
+      "sortOrder": [
+        0,
+        1,
+        2
+      ]
+    },
+    "tolerances": {
+      "resistorTolerance": "1%",
+      "capacitorTolerance": "5%",
+      "inductorTolerance": "5%",
+      "opAmpGbwTolerance": "20%",
+      "resistorPreferredSeries": "E96",
+      "capacitorPreferredSeries": "E24",
+      "inductorPreferredSeries": "E12"
+    },
+    "nextSteps": {}
+  },
+  "CreatedDate": "2025-06-21 08:03:30 PM",
+  "UpdatedDate": "2025-06-21 08:03:30 PM"
+}
